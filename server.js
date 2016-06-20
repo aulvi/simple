@@ -1,6 +1,6 @@
 var http = require('http');
 
-var HTTP_PORT = 8080;
+var HTTP_PORT = 3000;
 
 http.createServer(function(req, res) {
 	res.write("it totally works!");
